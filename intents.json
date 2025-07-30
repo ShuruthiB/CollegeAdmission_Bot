@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! Welcome to ABC Engineering College. How can I assist you today?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to apply?", "What is the admission process?", "How do I get admission?", "Is the application form available?"],
+      "responses": ["You can apply online through our college portal. Admissions are based on 12th board results and entrance exams like JEE or TNEA."]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["What is the eligibility criteria?", "Who can apply?", "Is JEE mandatory?", "Do I need to clear any exam?"],
+      "responses": ["Candidates must have passed 10+2 with Physics, Chemistry, and Mathematics and should qualify in JEE Main or relevant state entrance exam."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses do you offer?", "Engineering branches available?", "Do you offer Computer Science?", "What are the BTech specializations?"],
+      "responses": ["We offer B.Tech in Computer Science, Electronics and Communication, Mechanical, Civil, Information Technology, and AI & Data Science."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "How much is the tuition?", "Tell me the course fees", "Fee for CSE?"],
+      "responses": ["The tuition fee is ₹90,000 per year for B.Tech programs. Additional charges apply for hostel, books, and lab equipment."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Do you have hostels?", "Is hostel facility available?", "Tell me about hostel accommodation"],
+      "responses": ["Yes, we have separate hostels for boys and girls with WiFi, study rooms, and mess facilities. Hostel fee is ₹40,000 per semester."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["Do you offer placements?", "How are the placements?", "What companies visit the campus?", "Average salary package?"],
+      "responses": [
+        "Yes, we have an excellent placement record. In 2024, 92% of our students were placed.",
+        "Top recruiters include TCS, Infosys, Wipro, Cognizant, Accenture, HCL, Capgemini, Zoho, and Amazon."
+      ]
+    },
+    {
+      "tag": "package",
+      "patterns": ["What is the highest package?", "Average salary?", "How much do students get in placements?"],
+      "responses": [
+        "The highest package offered was ₹21 LPA by Amazon for a CSE student.",
+        "The average package is ₹4.8 LPA across all branches."
+      ]
+    },
+    {
+      "tag": "labs",
+      "patterns": ["What lab facilities are available?", "Do you have computer labs?", "Is there an AI/ML lab?", "Are the labs modern?"],
+      "responses": [
+        "We have state-of-the-art labs for all departments including IoT, Robotics, AI/ML, Cybersecurity, CAD/CAM, and Cloud Computing."
+      ]
+    },
+    {
+      "tag": "deadline",
+      "patterns": ["What is the last date to apply?", "When does admission close?", "Application deadline?"],
+      "responses": ["The last date to apply for 2025 admissions is June 30th. Apply early to avoid last-minute rush."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["Do you provide scholarships?", "Are there merit-based scholarships?", "Any financial aid?"],
+      "responses": [
+        "Yes, we offer scholarships based on 12th board marks, entrance exam rank, and sports achievements.",
+        "Up to 100% fee waiver available for top performers."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where is the college located?", "Tell me the address", "How do I reach the campus?"],
+      "responses": [
+        "ABC Engineering College is located in Chennai, Tamil Nadu, near Tambaram. It's easily accessible by train and bus."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["What is your contact number?", "Give me the phone number", "Email address please"],
+      "responses": [
+        "You can reach us at 1800-456-789 or email us at admissions@abcengg.edu.in"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Thank you", "Thanks", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Feel free to reach out for any more info.", "You're welcome. All the best for your engineering journey!"]
+    }
+  ]
+}
