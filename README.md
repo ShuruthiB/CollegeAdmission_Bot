@@ -62,7 +62,7 @@
 
 *```bash*
 
-*git clone https://github.com/your-username/CollegeAdmissionBot.git*
+*git clone https://github.com/ShuruthiB/CollegeAdmission_Bot*
 
 *cd CollegeAdmissionBot*
 
